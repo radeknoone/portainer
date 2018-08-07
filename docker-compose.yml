@@ -4,7 +4,5 @@ services:
     build: .
     ports:
      - "83.167.253.168:5000:5000"
-    volumes:
-     - .:/code
   redis:
     image: "redis:alpine"
